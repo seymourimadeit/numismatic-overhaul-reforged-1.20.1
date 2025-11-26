@@ -1,2 +1,2 @@
 CHANGELOG:
-Fix #3 (crash with cartographers)- [CHANGE] fix #20 fix #13 thanks to manu1978
+[CHANGE] fix #20 fix #13 (bugs with coins being lost when put into bag) thanks to manu1978
