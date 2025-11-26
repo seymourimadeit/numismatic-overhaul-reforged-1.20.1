@@ -20,7 +20,9 @@ public class CurrencyTooltipRenderer {
 
         y += 10;
 
-        List<ItemStack> coins = CurrencyConverter.getAsItemStackList(value);
+        // IMPORTANT : ici on utilise la version RAW (affichage logique),
+        // donc pas de split en 64 + reste, juste "1 or, 64 argent, 25 cuivre".
+        List<ItemStack> coins = CurrencyConverter.getAsItemStackListRaw(value);
 
         matrices.pose().translate(0, 0, 500);
 
