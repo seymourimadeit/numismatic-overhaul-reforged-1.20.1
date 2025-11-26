@@ -1,2 +1,2 @@
 CHANGELOG:
-[CHANGE] fix #20 fix #13 (bugs with coins being lost when put into bag) thanks to manu1978
+[CHANGE] fix #20 fix #13 (bugs with coins being lost when pulled out of purse) thanks to manu1978
