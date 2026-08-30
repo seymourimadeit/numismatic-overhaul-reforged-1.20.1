@@ -82,7 +82,7 @@ public class NumismaticOverhaulClient {
                     instance.aggressivePositioning = true;
                     instance.alignComponentToHandledScreenCoordinates(
                             component,
-                            160 + NOClientConfig.CLIENT.survivalPursePositionY.get(),
+                            160 + NOClientConfig.CLIENT.survivalPursePositionX.get(),
                             5 + NOClientConfig.CLIENT.survivalPursePositionY.get()
                     );
                 }),
